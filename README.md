@@ -5,3 +5,7 @@ Metacello new
  repository: 'github://SergeStinckwich/AgentOrganizations-Metrics/src';
  load.
  ```
+
+Roassal2 will be loaded automatically.
+
+# How to contribute
