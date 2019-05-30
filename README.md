@@ -1,4 +1,4 @@
-#How to load the code
+# How to load the code
 ```Smalltalk
 Metacello new
  baseline: 'AgentOrganizations-Metrics';
