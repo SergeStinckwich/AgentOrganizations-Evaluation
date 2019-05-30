@@ -15,7 +15,7 @@ BaselineOfAgentOrganizationsEvaluation >> baseline: spec [
 				baseline: 'Roassal2'
 				with: [ spec repository: 'github://ObjectProfile/Roassal2/src' ].
 			spec
-				package: 'AgentOrganizationEvaluation'
+				package: 'AgentOrganizationsEvaluation'
 				with: [ spec requires: #('Roassal2') ].
-				spec group:'default' with: #(#AgentOrganizationEvaluation)]
+			spec group: 'default' with: #(#AgentOrganizationEvaluation) ]
 ]
