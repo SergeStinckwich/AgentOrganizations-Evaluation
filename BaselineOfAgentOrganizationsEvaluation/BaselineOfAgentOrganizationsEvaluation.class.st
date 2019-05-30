@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfAgentOrganizationsEvaluation,
 	#superclass : #BaselineOf,
-	#category : 'AgentOrganizationsEvaluation-Baseline'
+	#category : #BaselineOfAgentOrganizationsEvaluation
 }
 
 { #category : #baselines }
@@ -11,8 +11,7 @@ BaselineOfAgentOrganizationsEvaluation >> baseline: spec [
 		for: #common
 		do: [ spec blessing: #baseline.
 			spec
-				repository:
-					'https://github.com/SergeStinckwich/AgentOrganizations-Evaluation'.
+				repository: 'github://SergeStinckwich/AgentOrganizations-Evaluation'.
 			spec
 				package: 'AgentOrganizationsEvaluation'
 				with: [ spec requires: #('Roassal2') ].
