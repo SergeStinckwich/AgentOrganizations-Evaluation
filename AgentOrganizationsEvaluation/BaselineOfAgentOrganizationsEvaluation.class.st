@@ -10,13 +10,15 @@ BaselineOfAgentOrganizationsEvaluation >> baseline: spec [
 	spec
 		for: #common
 		do: [ spec blessing: #baseline.
-			spec repository: 'https://github.com/SergeStinckwich/AgentOrganizations-Evaluation
-'.
+			spec
+				repository:
+					'https://github.com/SergeStinckwich/AgentOrganizations-Evaluation
+'.		spec
+				package: 'AgentOrganizationsEvaluation'
+				with: [ spec requires: #('Roassal2') ].
 			spec
 				baseline: 'Roassal2'
 				with: [ spec repository: 'github://ObjectProfile/Roassal2/src' ].
-			spec
-				package: 'AgentOrganizationsEvaluation'
-				with: [ spec requires: #('Roassal2') ].
-			spec group: 'default' with: #(#AgentOrganizationEvaluation) ]
+	
+			spec group: 'default' with: #(#AgentOrganizationsEvaluation) ]
 ]
