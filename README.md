@@ -3,4 +3,5 @@
 Metacello new
  baseline: 'AgentOrganizations-Metrics';
  repository: 'github://SergeStinckwich/AgentOrganizations-Metrics/src';
- load.```
+ load.
+ ```
