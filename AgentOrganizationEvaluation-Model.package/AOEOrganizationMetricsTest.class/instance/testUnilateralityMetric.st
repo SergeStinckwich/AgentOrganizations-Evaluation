@@ -1,10 +1,16 @@
 testing
 testUnilateralityMetric
-	self assert: self grossi unilateralityOfPowerStructure = 1.
-	self assert: self grossi unilateralityOfCoordinationStructure = (1/3).
-	self assert: self grossi unilateralityOfControlStructure = 1.
-	
-	self assert: self tsunamiResponse unilateralityOfPowerStructure = 1.
-	self assert: self tsunamiResponse unilateralityOfCoordinationStructure = (1/25).
-	self assert: self tsunamiResponse unilateralityOfControlStructure = 1
-	
+	self assert: self grossi unilateralityOfPowerStructure equals: 1.
+	self
+		assert: self grossi unilateralityOfCoordinationStructure
+		equals: 1 / 3.
+	self assert: self grossi unilateralityOfControlStructure equals: 1.
+	self
+		assert: self tsunamiResponse unilateralityOfPowerStructure
+		equals: 1.
+	self
+		assert: self tsunamiResponse unilateralityOfCoordinationStructure
+		equals: 1 / 25.
+	self
+		assert: self tsunamiResponse unilateralityOfControlStructure
+		equals: 1

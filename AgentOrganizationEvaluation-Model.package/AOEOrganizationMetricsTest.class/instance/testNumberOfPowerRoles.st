@@ -1,4 +1,4 @@
 testing
 testNumberOfPowerRoles
-	self assert: self grossi numberOfPowerRoles = 8.
-	self assert: self tsunamiResponse numberOfPowerRoles = 3
+	self assert: self grossi numberOfPowerRoles equals: 8.
+	self assert: self tsunamiResponse numberOfPowerRoles equals: 3

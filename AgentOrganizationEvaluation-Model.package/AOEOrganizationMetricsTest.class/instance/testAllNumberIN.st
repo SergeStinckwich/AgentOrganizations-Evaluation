@@ -1,5 +1,5 @@
 testing
 testAllNumberIN
-	self assert: self tsunamiResponse numberOfPowerIN = 3.
-	self assert: self tsunamiResponse numberOfCoordinationIN = 1.
-	self assert: self tsunamiResponse numberOfControlIN = 6
+	self assert: self tsunamiResponse numberOfPowerIN equals: 3.
+	self assert: self tsunamiResponse numberOfCoordinationIN equals: 1.
+	self assert: self tsunamiResponse numberOfControlIN equals: 6

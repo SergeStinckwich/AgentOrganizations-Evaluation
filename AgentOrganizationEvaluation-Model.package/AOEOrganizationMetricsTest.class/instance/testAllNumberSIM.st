@@ -1,5 +1,5 @@
 testing
-testAllNumberSIM	
-	self assert: self tsunamiResponse numberOfPowerSIM = 0.
-	self assert: self tsunamiResponse numberOfCoordinationSIM = 24.
-	self assert: self tsunamiResponse numberOfControlSIM = 0
+testAllNumberSIM
+	self assert: self tsunamiResponse numberOfPowerSIM equals: 0.
+	self assert: self tsunamiResponse numberOfCoordinationSIM equals: 24.
+	self assert: self tsunamiResponse numberOfControlSIM equals: 0
