@@ -1,3 +1,0 @@
-examples
-testBPDGraphRepresentation
-	self tsunamiResponse tsunamiBPDGraphRepresentationV2.
